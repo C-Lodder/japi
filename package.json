@@ -1,0 +1,14 @@
+{
+  "name": "japi",
+  "version": "1.0.0",
+  "description": "A mini Joomla API wrapper",
+  "author": "Charlie Lodder",
+  "license": "MIT",
+  "repository": "https://github.com/C-Lodder/japi",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "terser": "^5.2.1"
+  }
+}

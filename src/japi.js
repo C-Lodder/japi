@@ -43,8 +43,8 @@ export default class JAPI {
 
     // If data exists, stringify the object
     if (null !== data) {
-	  options.body = JSON.stringify(data)
-	}
+      options.body = JSON.stringify(data)
+    }
 
     return await (await fetch(`${this.site}/api/index.php/v1/${path}`, options)).json()
   }

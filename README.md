@@ -17,7 +17,7 @@ import JAPI from './japi.js'
 ### Instantiate the class:
 ```javascript
 const japi = new JAPI(
-  'http://yoursite.com',
+  'https://yoursite.com',
   'YOUR_JOOMLA_TOKEN'
 )
 ```
